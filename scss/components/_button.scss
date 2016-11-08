@@ -33,7 +33,7 @@
 }
 
 @for $i from 1 through length($tamanyos){
-    .btn--#{nth($tamanyos,$i)}){
+    .btn--#{nth($tamanyos,$i)}{
         @include tamanyos-btn($i);
     }
 }
