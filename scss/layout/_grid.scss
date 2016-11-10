@@ -11,16 +11,17 @@ and open the template in the editor.
 $num-columns:12;
 
 @for $i from 1 through $num-columns {
-    
-    .col-#{$i}{
-        margin: 10px;
-        width: ((100/$num-columns)*$i)*1%;
-        float:left;
-        border: 1px solid red;
-    }
-    .offset-#{$i}{
-        margin-left: ((100/$num-columns)*$i)*1%;
-    }
+/*    @for $j from 1 through length($resoluciones){*/
+        .col-#{$i}{
+            margin: 10px;
+            width: ((100/$num-columns)*$i)*1%;
+            float:left;
+/*            border: 1px solid red;*/
+        }
+        .offset-#{$i}{
+            margin-left: ((100/$num-columns)*$i)*1%;
+        }
+    /*}*/
 }
 .row:after {
     content: "";

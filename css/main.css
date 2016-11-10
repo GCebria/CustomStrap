@@ -529,6 +529,9 @@ li.ejemplo {
   list-style: none;
   margin: 20px; }
 
+.general {
+  background-color: #EAEAEA; }
+
 /* PANELES */
 .panel {
   margin: 0;
@@ -833,114 +836,138 @@ and open the template in the editor.
     Created on : 08-nov-2016, 14:19:13
     Author     : alumno
 */
+/*    @for $j from 1 through length($resoluciones){*/
 .col-1 {
   margin: 10px;
   width: 8.33333%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-1 {
   margin-left: 8.33333%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-2 {
   margin: 10px;
   width: 16.66667%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-2 {
   margin-left: 16.66667%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-3 {
   margin: 10px;
   width: 25%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-3 {
   margin-left: 25%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-4 {
   margin: 10px;
   width: 33.33333%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-4 {
   margin-left: 33.33333%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-5 {
   margin: 10px;
   width: 41.66667%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-5 {
   margin-left: 41.66667%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-6 {
   margin: 10px;
   width: 50%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-6 {
   margin-left: 50%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-7 {
   margin: 10px;
   width: 58.33333%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-7 {
   margin-left: 58.33333%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-8 {
   margin: 10px;
   width: 66.66667%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-8 {
   margin-left: 66.66667%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-9 {
   margin: 10px;
   width: 75%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-9 {
   margin-left: 75%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-10 {
   margin: 10px;
   width: 83.33333%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-10 {
   margin-left: 83.33333%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-11 {
   margin: 10px;
   width: 91.66667%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-11 {
   margin-left: 91.66667%; }
 
+/*}*/
+/*    @for $j from 1 through length($resoluciones){*/
 .col-12 {
   margin: 10px;
   width: 100%;
   float: left;
-  border: 1px solid red; }
+  /*            border: 1px solid red;*/ }
 
 .offset-12 {
   margin-left: 100%; }
 
+/*}*/
 .row:after {
   content: "";
   clear: both;
@@ -958,7 +985,8 @@ and open the template in the editor.
 .lateralMenu {
   background-color: #323443;
   color: white;
-  margin-left: 0px; }
+  margin-left: 0px;
+  margin-top: 0px; }
 
 .lateralMenu__menu {
   list-style-type: none;
@@ -969,7 +997,8 @@ and open the template in the editor.
   padding: 20px; }
 
 .lateralMenu__item:hover {
-  background-color: #1E202C; }
+  background-color: #F8F3F0;
+  color: #337AB7; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
@@ -982,5 +1011,6 @@ and open the template in the editor.
 */
 .header {
   width: 100vh;
-  height: 5hv;
-  background-color: black; }
+  height: 10hv;
+  background-color: black;
+  margin-bottom: 0px; }
