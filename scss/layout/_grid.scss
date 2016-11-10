@@ -13,6 +13,7 @@ $num-columns:12;
 @for $i from 1 through $num-columns {
     
     .col-#{$i}{
+        margin: 10px;
         width: ((100/$num-columns)*$i)*1%;
         float:left;
         border: 1px solid red;
